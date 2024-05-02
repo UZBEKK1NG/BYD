@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500&family=Montserrat:wght@200;300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.mini_Bar {
+  width: 100%;
+  height: 40px;
+  background: #252728;
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 1rem;
+  padding-left: 67%;
+}
+.mini_Bar hr {
+  width: 15px;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgb(255, 255, 255);
+  transform: rotate(90deg);
+}
+.mini_Bar p {
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.BYD {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  z-index: 999;
+  left: 80%;
+}
+
+svg {
+  cursor: pointer;
+}
+
+.navbar {
+  width: 100%;
+  height: 63px;
+  z-index: 999;
+  background: #20252d;
+  box-shadow: 0 4px 30px #20252d;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border: 1px solid rgba(21, 23, 39, 0.39);
+  opacity: 0.95;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  padding: 15rem;
+}
+.navbar li {
+  cursor: pointer;
+  padding-left: 4rem;
+  font-weight: 300;
+  font-size: 1.1rem;
+  list-style-type: none;
+}
+.navbar hr {
+  width: 15px;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgb(255, 255, 255);
+  transform: rotate(90deg);
+}
+
+.one_Page, .two_Page {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.one_Page img, .two_Page img {
+  width: 100%;
+  height: 105vh;
+}
+.one_Page div, .two_Page div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.one_Page h1, .two_Page h1 {
+  color: white;
+  position: absolute;
+  top: 7.5rem;
+  font-size: 3.9rem;
+  font-weight: 400;
+}
+.one_Page button, .two_Page button {
+  width: 200px;
+  height: 55px;
+  position: absolute;
+  top: 83%;
+  font-weight: 400;
+  color: white;
+  font-size: 1.2rem;
+  background: transparent;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.one_Page button:hover, .two_Page button:hover {
+  background: white;
+  color: black;
+  transition: 0.5s;
+}
+
+.card_Duble {
+  width: 100%;
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.9rem;
+}
+.card_Duble div {
+  width: 49.9%;
+  height: 98%;
+  margin-top: 5px;
+  position: relative;
+}
+.card_Duble div img {
+  width: 100%;
+  height: 100%;
+}
+.card_Duble div h1 {
+  z-index: 1;
+  color: white;
+  position: absolute;
+  font-size: 2.4rem;
+  font-weight: 400;
+  top: 60%;
+  left: 40%;
+}
+.card_Duble div button {
+  width: 160px;
+  height: 45px;
+  position: absolute;
+  top: 78%;
+  left: 38%;
+  font-weight: 400;
+  color: white;
+  font-size: 1rem;
+  background: transparent;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.card_Duble div button:hover {
+  background: white;
+  color: black;
+  transition: 0.5s;
+}
+
+.space {
+  width: 100%;
+  height: 75vh;
+}
+.space img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+  width: 100%;
+  height: 25vh;
+  background: #252728;
+}
+.footer div {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.3rem;
+}
+.footer ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 2rem;
+}
+.footer ul li {
+  color: white;
+  font-size: 1rem;
+  list-style-type: none;
+  font-weight: 100;
+}
+.footer ul li:hover {
+  cursor: pointer;
+  color: white;
+}
+.footer ul hr {
+  width: 15px;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgb(130, 130, 130);
+  transform: rotate(90deg);
+}
+.footer div {
+  color: white;
+  gap: 2.5rem;
+}
+
+.footer i {
+  font-size: 1.5rem;
+  color: #61686B;
+}
+.footer i:hover {
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+}
+
+.lineHR {
+  width: 95%;
+  border: 0;
+  height: 0;
+  margin: 0 auto;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 0.5px solid rgb(130, 130, 130);
+}
+
+.footer p {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.78rem;
+  color: #61686B;
+}/*# sourceMappingURL=style.css.map */
